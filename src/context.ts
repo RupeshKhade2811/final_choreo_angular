@@ -75,13 +75,13 @@ declare global {
   
   export const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "/choreo-apis/bigbillioncars/reading-list-service/books-rest-endpoint-d70/v1.0";
 
-  const inv= window?.configs?.apiUrl ? window.configs.apiUrlInv :"/choreo-apis/bigbillioncars/ballerina/inventory-a4c/v1.0";
-  const config= window?.configs?.apiUrl ? window.configs.apiUrlConfig :"/choreo-apis/bigbillioncars/ballerina/configcodes-631/v1.0";
-  const shipment= window?.configs?.apiUrl ? window.configs.apiUrlShipment :"/choreo-apis/bigbillioncars/ballerina/shipment-ec9/v1.0";
-  const user= window?.configs?.apiUrl ? window.configs.apiUrlUser :"/choreo-apis/bigbillioncars/ballerina/user-27c/v1.0";
-  const appraisal= window?.configs?.apiUrl ? window.configs.apiUrlAppraisal :"/choreo-apis/bigbillioncars/ballerina/appraisal-a0e/v1.0";
-  const dashboard= window?.configs?.apiUrl ? window.configs.apiUrlDashboard :"/choreo-apis/bigbillioncars/ballerina/dash-ecb/v1.0";
-  const srchFtry= window?.configs?.apiUrl ? window.configs.apiUrlSrchFtry :"/choreo-apis/bigbillioncars/ballerina/searchfactory-008/v1.0";                                                                        
+  const inv= window?.configs?.apiUrl ? window.configs.apiUrlInv :"/choreo-apis/pwcx/ballerinaservices/inventory-a4c/v1.0";
+  const config= window?.configs?.apiUrl ? window.configs.apiUrlConfig :"/choreo-apis/pwcx/ballerinaservices/configcodes-631/v1.0";
+  const shipment= window?.configs?.apiUrl ? window.configs.apiUrlShipment :"/choreo-apis/pwcx/ballerinaservices/shipment-ec9/v1.0";
+  const user= window?.configs?.apiUrl ? window.configs.apiUrlUser :"/choreo-apis/pwcx/ballerinaservices/user-27c/v1.0";
+  const appraisal= window?.configs?.apiUrl ? window.configs.apiUrlAppraisal :"/choreo-apis/pwcx/ballerinaservices/appraisal-a0e/v1.0";
+  const dashboard= window?.configs?.apiUrl ? window.configs.apiUrlDashboard :"/choreo-apis/pwcx/ballerinaservices/dash-ecb/v1.0";
+  const srchFtry= window?.configs?.apiUrl ? window.configs.apiUrlSrchFtry :"/choreo-apis/pwcx/ballerinaservices/searchfactory-008/v1.0";                                                                        
 
   
 const contextPaths = {

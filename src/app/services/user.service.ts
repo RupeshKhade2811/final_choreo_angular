@@ -77,7 +77,7 @@ export class UserService {
   getUserFromAsguard(accessToken: any, userId: any) {
     console.log(accessToken);
     console.log(userId);
-    const getUserUrl = `https://api.asgardeo.io/t/orgenox1/scim2/Users/${userId}`;
+    const getUserUrl = `https://api.asgardeo.io/t/massil2016/scim2/Users/${userId}`;
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
       'Authorization': "Bearer "+accessToken
@@ -138,10 +138,10 @@ export class UserService {
 
   getAccessToken() {
     const accessTokenUrl = `
-    https://api.asgardeo.io/t/orgenox1/oauth2/token?grant_type=client_credentials&scope=internal_user_mgt_view`;
+    https://api.asgardeo.io/t/massil2016/oauth2/token?grant_type=client_credentials&scope=internal_user_mgt_view`;
     const headers = new HttpHeaders({
       'Content-Type': 'application/x-www-form-urlencoded',
-      'Authorization': "Basic dnBmY2RKbENLck5iMF82bmgzTjBNWW1vZm5ZYTpEcHlxVlJKWkxmY0doYzg2SFZKQTdsTXBjZEJKNWVQWmhmYUhnVHpPemxRYQ==",
+      'Authorization': "Basic bkhJRnVWNU5weThHbE1Vb0ZsUDRoVERtYXdNYTpqZ0pucXBxQWhpUTFZWTQ1dkVLdVdmZVpQUm5XcmZ6Tk9iWUt4S2dyWGg4YQ==",
     });
     const options = { headers: headers };
     return this.http.post(accessTokenUrl, null, options);

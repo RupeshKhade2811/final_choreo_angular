@@ -12,7 +12,7 @@ export class AuthServiceService {
     const url = 'https://api.asgardeo.io/t/massil2016/oauth2/token';
     const headers = {
       Authorization: 'Basic bkhJRnVWNU5weThHbE1Vb0ZsUDRoVERtYXdNYTpqZ0pucXBxQWhpUTFZWTQ1dkVLdVdmZVpQUm5XcmZ6Tk9iWUt4S2dyWGg4YQ==',
-      // 'Content-Type': 'application/x-www-form-urlencoded'
+       'Content-Type': 'application/x-www-form-urlencoded'
     };
     const body = 'grant_type=client_credentials';
 

@@ -75,13 +75,13 @@ declare global {
   
   export const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "/choreo-apis/bigbillioncars/reading-list-service/books-rest-endpoint-d70/v1.0";
 
-  const inv= window?.configs?.apiUrl ? window.configs.apiUrlInv :"https://decde734-bc1e-404d-809f-b9d9ee98e177-prod.e1-us-east-azure.choreoapis.dev/sample-project2/ballerinaservices/inventory-a4c/v1";
-  const config= window?.configs?.apiUrl ? window.configs.apiUrlConfig :"https://decde734-bc1e-404d-809f-b9d9ee98e177-prod.e1-us-east-azure.choreoapis.dev/sample-project2/ballerinaservices/configcodes-631/v1";
-  const shipment= window?.configs?.apiUrl ? window.configs.apiUrlShipment :"https://decde734-bc1e-404d-809f-b9d9ee98e177-prod.e1-us-east-azure.choreoapis.dev/sample-project2/ballerinaservices/shipment-ec9/v1";
-  const user= window?.configs?.apiUrl ? window.configs.apiUrlUser :"https://decde734-bc1e-404d-809f-b9d9ee98e177-prod.e1-us-east-azure.choreoapis.dev/sample-project2/ballerinaservices/user-27c/v1";
-  const appraisal= window?.configs?.apiUrl ? window.configs.apiUrlAppraisal :"https://decde734-bc1e-404d-809f-b9d9ee98e177-prod.e1-us-east-azure.choreoapis.dev/sample-project2/ballerinaservices/appraisal-a0e/v1";
-  const dashboard= window?.configs?.apiUrl ? window.configs.apiUrlDashboard :"https://decde734-bc1e-404d-809f-b9d9ee98e177-prod.e1-us-east-azure.choreoapis.dev/sample-project2/ballerinaservices/dash-ecb/v1";
-  const srchFtry= window?.configs?.apiUrl ? window.configs.apiUrlSrchFtry :"https://decde734-bc1e-404d-809f-b9d9ee98e177-prod.e1-us-east-azure.choreoapis.dev/sample-project2/ballerinaservices/searchfactory-008/v1";                                                                        
+  const inv= window?.configs?.apiUrl ? window.configs.apiUrlInv : "/choreo-apis/sample-project2/ballerinaservices/inventory-a4c/v1.0";
+  const config= window?.configs?.apiUrl ? window.configs.apiUrlConfig : "/choreo-apis/sample-project2/ballerinaservices/configcodes-631/v1.0";
+  const shipment= window?.configs?.apiUrl ? window.configs.apiUrlShipment : "/choreo-apis/sample-project2/ballerinaservices/shipment-ec9/v1.0";
+  const user= window?.configs?.apiUrl ? window.configs.apiUrlUser : "/choreo-apis/sample-project2/ballerinaservices/user-27c/v1.0";
+  const appraisal= window?.configs?.apiUrl ? window.configs.apiUrlAppraisal : "/choreo-apis/sample-project2/ballerinaservices/appraisal-a0e/v1.0";
+  const dashboard= window?.configs?.apiUrl ? window.configs.apiUrlDashboard : "/choreo-apis/sample-project2/ballerinaservices/dash-ecb/v1.0";
+  const srchFtry= window?.configs?.apiUrl ? window.configs.apiUrlSrchFtry : "/choreo-apis/sample-project2/ballerinaservices/searchfactory-008/v1.0";                                                                        
 
   
 const contextPaths = {
